@@ -120,3 +120,44 @@ body {
     color: #FFF;
     padding: 20px;
   }
+
+  /* Estilos para dispositivos móveis */
+@media (max-width: 600px) {
+  h1 {
+    font-size: 32px;
+  }
+
+  #container {
+    width: 100%;
+  }
+
+  .box {
+    height: 80px;
+    flex: 1 1 33%;
+  }
+
+  .x {
+    font-size: 50px;
+    line-height: 80px;
+  }
+
+  .o {
+    width: 40px;
+    height: 40px;
+    margin-top: 12px;
+  }
+
+  #message p {
+    width: 90%;
+    font-size: 32px;
+    top: 100px;
+  }
+
+  #scoreboard-container {
+    font-size: 20px;
+  }
+
+  .score-box {
+    margin: 0 10px;
+  }
+}
